@@ -25,12 +25,13 @@ a{
     padding: 5px 25px;
     margin: 25px;
     
+    
 }
 
 .title{
     display: flex;
     align-items: left;
-    gap: 15px  /* flex elmanların arasındaki boşluğu ifade eder*/
+    gap: 15px  /* flex elemanların arasındaki boşluğu ifade eder*/
 
 }
 
@@ -40,7 +41,7 @@ a{
 }
 
 .footer{
-    border-top: 4px dotted rgb(3, 82, 142) ;
+    border-top: 3px dotted rgb(12,1,67) ;
     display: flex;
     justify-content: space-between;
     align-items: center;
