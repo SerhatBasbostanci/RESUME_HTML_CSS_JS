@@ -40,17 +40,95 @@ a{
     font-size: 20px;
 }
 
-.footer{
+.footer {
     border-top: 3px dotted rgb(12,1,67) ;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 25px;
+    margin: 25px;
     padding: 5px 25px;
 }
+
+
 
 .content{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+
+.content .about{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin: 30px;
+    
+    
+}
+
+.about img{
+ 
+        width: 500px;
+        height: 500px;
+        border: 3px solid rgb(rgb(12,1,67), green, blue);
+        border-radius: 250px ;
+        box-shadow: 10px 10px 15px rgb(39, 38, 38);
+
+
+}
+
+.about .description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 30px;
+
+}   
+
+.section{
+    width: 60%;
+
+}
+
+.section .card{
+    display: flex;
+    border: 3px solid rgb(12, 1, 67);
+    background-color: rgb(199, 255, 254);
+    border-radius: 10px;
+    margin: 40px;
+    padding: 40px;
+}
+
+.section .card .left{
+    flex:2
+    
+}
+.section .card .right{
+    flex:2
+
+}
+    
+
+input,textarea{
+    border:3px solid rgb(12,1,67);
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 400px;
+
+}
+
+button{
+    border: 3px solid rgb(12, 1, 67);
+    background-color: rgb(199, 255, 254);
+    border-radius: 10px;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700px;
+    color: rgb(20, 11, 193);
+
 }
